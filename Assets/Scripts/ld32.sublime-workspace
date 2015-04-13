@@ -1,0 +1,400 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"curre",
+				"current_frame"
+			],
+			[
+				"curr",
+				"current_frame"
+			],
+			[
+				"cur",
+				"current"
+			],
+			[
+				"CELL_",
+				"CELL_DOOR"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"ste",
+				"steps_taken"
+			],
+			[
+				"di",
+				"digger"
+			],
+			[
+				"dire",
+				"direction"
+			],
+			[
+				"dir",
+				"direction"
+			],
+			[
+				"ne",
+				"next_room_cell"
+			],
+			[
+				"ce",
+				"center_row"
+			],
+			[
+				"cell",
+				"cell_size"
+			],
+			[
+				"cel",
+				"cell_size"
+			],
+			[
+				"visi",
+				"visited_cells"
+			],
+			[
+				"max_",
+				"max_size"
+			],
+			[
+				"cla",
+				"cla	class .. < ParentClass .. initialize .. end"
+			],
+			[
+				"gala",
+				"galaxy_pos"
+			],
+			[
+				"vec",
+				"Vec2"
+			],
+			[
+				"off",
+				"offset_x"
+			],
+			[
+				"galax",
+				"galaxies"
+			],
+			[
+				"go",
+				"Gosu"
+			],
+			[
+				"uni",
+				"universe"
+			],
+			[
+				"sola",
+				"solar_system_dictionary"
+			],
+			[
+				"sol_",
+				"solar_system_dictionary"
+			],
+			[
+				"random_s",
+				"random_solar_system_name"
+			],
+			[
+				"sun_",
+				"suns_dictionary"
+			],
+			[
+				"pla",
+				"planet_dictionary"
+			],
+			[
+				"min",
+				"min_size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Premake/Premake.sublime-build",
+	"command_palette":
+	{
+		"height": 147.0,
+		"selected_items":
+		[
+			[
+				"prema",
+				"Premake: Generate"
+			],
+			[
+				"premake",
+				"Premake: Generate"
+			],
+			[
+				"premea",
+				"Premake: Select Configuration"
+			],
+			[
+				"prea",
+				"Premake: Clean"
+			],
+			[
+				"prem",
+				"Premake: Generate"
+			],
+			[
+				"pre",
+				"Premake: Clean"
+			],
+			[
+				"run",
+				"Build: Run"
+			],
+			[
+				"pream",
+				"Premake: Select Run Target"
+			],
+			[
+				"preamke",
+				"Premake: Select Configuration"
+			],
+			[
+				"prema ge",
+				"Premake: Generate"
+			],
+			[
+				"premak",
+				"Premake: Generate"
+			],
+			[
+				"premak ge",
+				"Premake: Generate"
+			],
+			[
+				"",
+				"Bookmarks: Clear All"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"premake ce",
+				"Premake: Clean"
+			],
+			[
+				"premake ge",
+				"Premake: Generate"
+			],
+			[
+				"premake ",
+				"Premake: Plugin Help"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"premake gene",
+				"Premake: Generate"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"b",
+				"Build: Build"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/erikskoglund/projects/unity/LD32"
+	],
+	"file_history":
+	[
+		"/Users/erikskoglund/projects/unity/LD32/Assets/Scripts/TestScript.cs",
+		"/Users/erikskoglund/.ssh/id_rsa.pub",
+		"/Users/erikskoglund/projects/ruby/dungen/dungeon_generator.rb",
+		"/Users/erikskoglund/projects/ruby/dungen/tiles_grid_renderer.rb",
+		"/Users/erikskoglund/projects/ruby/dungen/auto_tile.rb",
+		"/Users/erikskoglund/projects/ruby/dungen/vec2.rb",
+		"/Users/erikskoglund/projects/ruby/dungen/grid.rb",
+		"/Users/erikskoglund/projects/ruby/dungen/utils.rb",
+		"/Users/erikskoglund/projects/ruby/dungen/grid_renderer.rb",
+		"/Users/erikskoglund/projects/ruby/dungen/maze_renderer.rb",
+		"/Users/erikskoglund/projects/ruby/dungen/maze_generator.rb",
+		"/Users/erikskoglund/projects/ruby/dungen/rectangle.rb",
+		"/Users/erikskoglund/projects/ruby/dungen/main.rb",
+		"/Users/erikskoglund/projects/ruby/dungeons_and_daggers/colorize.rb",
+		"/Users/erikskoglund/projects/ruby/space/vec2.rb",
+		"/Users/erikskoglund/projects/ruby/space/utils.rb",
+		"/Users/erikskoglund/projects/ruby/space/data/solar_systems.txt",
+		"/Users/erikskoglund/projects/ruby/space/data/untitled",
+		"/Users/erikskoglund/projects/ruby/space/data/moons.txt",
+		"/Users/erikskoglund/projects/ruby/space/data/suns.txt",
+		"/Users/erikskoglund/projects/ruby/space/data/galaxies.txt",
+		"/Users/erikskoglund/projects/ruby/space/data/planets.txt",
+		"/Users/erikskoglund/Documents/Projects/ruby/city_generator/generator.rb",
+		"/Users/erikskoglund/Documents/Projects/cpp/entity_component_system/entity.h",
+		"/Users/erikskoglund/Documents/Projects/cpp/sfml_test/premake4.lua",
+		"/Users/erikskoglund/Documents/Projects/cpp/sfml_test/sfml_test.sublime-project",
+		"/Users/erikskoglund/Documents/Projects/cpp/sfml_test/Makefile",
+		"/Users/erikskoglund/Documents/Projects/cpp/sfml_test/TheGame"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rand",
+			"render",
+			"visited_cells",
+			"stop"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 189.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "ld32.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 307.0,
+		"selected_items":
+		[
+			[
+				"",
+				"TheGame:"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
