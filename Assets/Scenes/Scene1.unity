@@ -144,7 +144,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!58 &244966107
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -283,7 +283,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!1 &950065119
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,6 +293,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 950065120}
   - 61: {fileID: 950065121}
+  - 114: {fileID: 950065122}
   m_Layer: 9
   m_Name: Weakpoint
   m_TagString: Untagged
@@ -325,6 +326,18 @@ BoxCollider2D:
   m_Offset: {x: .360393047, y: .0213792324}
   serializedVersion: 2
   m_Size: {x: .181480944, y: .541873455}
+--- !u!114 &950065122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 950065119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53fe0248edefa44c6bfcdc123cd85207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tag: puck
 --- !u!1 &1859357331
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,7 +395,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!61 &1859357334
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -448,6 +461,8 @@ GameObject:
   - 61: {fileID: 2004282730}
   - 114: {fileID: 2004282732}
   - 114: {fileID: 2004282733}
+  - 114: {fileID: 2004282734}
+  - 114: {fileID: 2004282735}
   m_Layer: 9
   m_Name: Boss_PuckEater
   m_TagString: Untagged
@@ -493,7 +508,7 @@ Transform:
   m_Children:
   - {fileID: 950065120}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!61 &2004282730
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -548,6 +563,31 @@ MonoBehaviour:
   duration: 15
   lookForward: 0
   mode: 1
+--- !u!114 &2004282734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2004282727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a1f2f673649146b1adebf04e578d63f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 3
+--- !u!114 &2004282735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2004282727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881521812cee845c9bad18a31321e240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prefabs:
+  - {fileID: 147160, guid: 7d4523edab634412685010ccc14ca157, type: 2}
 --- !u!1 &2142289853
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,7 +615,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
 --- !u!114 &2142289855
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -20,4 +20,20 @@ public class PuckEaterAI : MonoBehaviour
 
         transform.rotation = Quaternion.AngleAxis(targetAngle, Vector3.forward);
 	}
+
+	void OnDamaged(int health)
+	{
+		if(health == 0)
+		{
+			Debug.Log("Shit i ded");
+			GetComponent<SplineWalker>().enabled = false;
+			enabled = false;
+			gameObject.SendMessage("OnDestroyed");
+			Destroy(gameObject);
+		}
+		else
+		{
+			Debug.Log("Ouch.. ");
+		}
+	}
 }

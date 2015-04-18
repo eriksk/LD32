@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - puck
   layers:
   - Default
   - TransparentFX
@@ -49,4 +50,7 @@ TagManager:
     locked: 0
   - name: Enemies
     uniqueID: 3915668049
+    locked: 0
+  - name: Particles
+    uniqueID: 282903381
     locked: 0
