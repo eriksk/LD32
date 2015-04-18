@@ -1,0 +1,31 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"file_exclude_patterns":
+			[
+				"*.dll",
+				"*.meta",
+				"*.gitignore",
+				"*.md"
+			],
+            "folder_exclude_patterns": 
+            [
+            	"Library",
+            	"ProjectSettings",
+            	"Temp"
+            ]
+		},
+		{
+			"path": "Assets/Game/Scripts",
+			"file_exclude_patterns":
+			[
+				"*.dll",
+				"*.meta",
+				"*.gitignore",
+				"*.md"
+			],
+		}
+	]
+}

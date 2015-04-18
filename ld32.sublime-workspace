@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"door",
+				"doorPosition"
+			],
+			[
+				"direct",
+				"direction	[class]"
+			],
+			[
+				"roomte",
+				"roomTemplateAsset"
+			],
+			[
+				"mindis",
+				"minDistanceBetweenRooms"
+			],
+			[
+				"dire",
+				"direction	[class]"
+			],
+			[
+				"row",
+				"Row"
+			],
+			[
+				"EditorGui",
+				"EditorGUILayout	[class]"
+			],
+			[
+				"itera",
+				"Iterate"
+			],
+			[
 				"curre",
 				"current_frame"
 			],
@@ -30,10 +62,6 @@
 			[
 				"di",
 				"digger"
-			],
-			[
-				"dire",
-				"direction"
 			],
 			[
 				"dir",
@@ -119,13 +147,41 @@
 	},
 	"buffers":
 	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
 	],
-	"build_system": "Packages/Premake/Premake.sublime-build",
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 147.0,
+		"last_filter": "ss html",
 		"selected_items":
 		[
+			[
+				"ss html",
+				"Set Syntax: HTML"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"prema",
 				"Premake: Generate"
@@ -240,6 +296,34 @@
 	],
 	"file_history":
 	[
+		"/Users/erikskoglund/projects/web/erikskoglund.com/index.html",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/Worlds/Grids/IGrid.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/Worlds/Grids/StaticGrid.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/Worlds/Grids/DynamicTileGrid.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/Worlds/Generation/Data/CellShapeTemplate.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/Meshes/GridMeshGenerator.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/Utils/CollectionExt.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/Worlds/Generation/Data/CellRect.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/Worlds/Generation/WorldGenerator.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Plugins/SimpleJSON/SimpleJSON.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/Worlds/Generation/Data/Cell.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/Worlds/Generation/Strategies/IWorldGenerationStrategy.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/lorn.sublime-project",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/Worlds/Generation/Data/Tile.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Editor/Inspectors/StaticGridInspector.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Editor/Inspectors/WorldGeneratorInspector.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/Utils/Rand.cs",
+		"/Users/erikskoglund/Desktop/Crap/Scripts/TileType.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/Worlds/Grids/GridCell.cs",
+		"/Users/erikskoglund/Desktop/Crap/Scripts/GridMeshGenerator.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/PathFinding/AStar/AStarPathFinder.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/PathFinding/AStar/IPathFindingMetadata.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/PathFinding/AStar/ISolverStrategy.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/PathFinding/AStar/ITiledWorld.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/PathFinding/AStar/CellNode.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/Worlds/Tiling/DynamicTileGrid.cs",
+		"/Users/erikskoglund/projects/unity/Lorn/Assets/Game/Scripts/DefaultScript.cs",
+		"/Users/erikskoglund/projects/unity/LD32/Assets/Scripts/ld32.sublime-project",
 		"/Users/erikskoglund/projects/unity/LD32/Assets/Scripts/TestScript.cs",
 		"/Users/erikskoglund/.ssh/id_rsa.pub",
 		"/Users/erikskoglund/projects/ruby/dungen/dungeon_generator.rb",
@@ -285,6 +369,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"jsonArray",
+			"as",
+			"Grid",
+			"grid.",
 			"rand",
 			"render",
 			"visited_cells",
@@ -306,8 +394,36 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -350,6 +466,7 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "ld32.sublime-project",
 	"replace":
 	{
@@ -359,14 +476,28 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"cellre",
+				"Scripts/Worlds/Generation/Data/CellRect.cs"
+			],
+			[
+				"cellsha",
+				"Scripts/Worlds/Generation/Data/CellShapeTemplate.cs"
+			],
+			[
+				"cell",
+				"Scripts/Worlds/Generation/Data/Cell.cs"
+			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -375,6 +506,7 @@
 	"select_symbol":
 	{
 		"height": 307.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
