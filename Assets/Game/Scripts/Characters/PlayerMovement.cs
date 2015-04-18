@@ -21,7 +21,10 @@ public class PlayerMovement : MonoBehaviour
 
 		rigidBody.AddForce(direction * Speed);
 
-         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+         float targetAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+         float currentAngle = transform.rotation.eulerAngles.z;
+         float resultAngle = Mathf.LerpAngle(currentAngle, targetAngle, 0.3f);
+
+         transform.rotation = Quaternion.AngleAxis(resultAngle, Vector3.forward);
 	}
 }
