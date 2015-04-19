@@ -26,6 +26,16 @@
 				"*.gitignore",
 				"*.md"
 			],
+		},
+		{
+			"path": "Assets/Editor",
+			"file_exclude_patterns":
+			[
+				"*.dll",
+				"*.meta",
+				"*.gitignore",
+				"*.md"
+			],
 		}
 	]
 }
